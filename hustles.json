@@ -1,0 +1,14 @@
+{	"articles": [{
+	"name": "Our first article!",
+	"author": "Justin Scott",
+	"content": "askdjas asfjd fjfa jfs  fid sjf ifjs askds",
+	"date": "6/7/16",
+	"image": "http://cdn.shopify.com/s/files/1/0080/8372/products/tattly_tina_roth_eisenberg_hustle_web_design_01_grande.jpg?v=1361838750"
+}, {
+	"name": "Our Second article!",
+	"author": "Justin Scott and Friends",
+	"content": "askdjas asfjd fjfa jfs  fid sjf ifjs askds",
+	"date": "6/7/16",
+	"image": "http://cdn.shopify.com/s/files/1/0080/8372/products/tattly_tina_roth_eisenberg_hustle_web_design_01_grande.jpg?v=1361838750"
+	}]
+}

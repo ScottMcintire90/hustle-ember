@@ -1,0 +1,14 @@
+.links {
+ margin: 50px;
+}
+.article-image {
+	margin-right: 250px;
+}
+
+img {
+	max-width: 350px;
+}
+
+.article-content {
+	padding-top: 9%;
+}

@@ -1,4 +1,4 @@
 <div class="articleHome">
-  <img src="{{article.image}}"/>
+  {{#link-to 'article' article.id}}<img src="{{article.image}}"/>{{/link-to}}
   <span class="articleTitle">{{#link-to 'article' article.id}}{{article.name}}{{/link-to}}</span>
 </div>

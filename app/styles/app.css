@@ -10,9 +10,18 @@
   font-size: 80px;
   letter-spacing: 100px;
   font-weight: bold;
+  background-color: none;
 }
 .hustle2 {
     padding-left: 105px;
+}
+
+body {
+  background: url("http://www.photos-public-domain.com/wp-content/uploads/2011/03/white-construction-paper-texture.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .article-content {
@@ -22,10 +31,14 @@
   font-weight: bold;
   color: black;
   font-size: 24px;
+  margin-left: 25px;
 }
 .articleHome img {
   max-width: 300px;
   max-height: 300px;
+}
+.admin-articles {
+  margin: 25px;
 }
 .articleHome {
   margin: 50px;
@@ -46,6 +59,7 @@ hr {
 	letter-spacing: 5px;
 	font-family: 'Cinzel', serif;
 	text-align: left;
+  font-weight: bold;
 }
 .searchBar {
   text-align: right;

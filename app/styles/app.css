@@ -5,10 +5,40 @@
 	margin-right: 250px;
 }
 
-img {
-	max-width: 350px;
-}
-
 .article-content {
 	padding-top: 9%;
+}
+
+.header {
+	height: 100px;
+	width: 100%;
+	background-position: 0% 25%;
+    background-repeat: no-repeat;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 100px;
+    font-size: 12323200px;
+    text-align: center;
+}
+.headlinks {
+	margin-left: 25%;
+	
+}
+.seperator {
+	margin-bottom: 20%;
+}
+.outlet {
+	margin-top: 5%;
+}
+
+hr {
+	border-color: #123455;
+}
+
+
+
+.headlinks a {
+	color: black;
+	letter-spacing: 5px;
+	font-family: 'Cinzel', serif;
+	text-align: center;
 }

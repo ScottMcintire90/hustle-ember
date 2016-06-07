@@ -5,15 +5,4 @@ export default Ember.Route.extend({
 
 		return this.store.findAll('article');
 	},
-actions: {
-    update(rental, params) {
-      Object.keys(params).forEach(function(key) {
-        if(params[key]!==undefined) {
-          rental.set(key,params[key]);
-        }
-      });
-      rental.save();
-      this.transitionTo('index');
-    },
-}
 });

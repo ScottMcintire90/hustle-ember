@@ -9,6 +9,7 @@ Router.map(function() {
   this.route('contact');
   this.route('about');
   this.route('article', {path: '/article/:article_id'});
+  this.route('admin');
 });
 
 export default Router;

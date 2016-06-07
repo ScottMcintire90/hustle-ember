@@ -1,0 +1,35 @@
+{{#if updateAdminForm}}
+  <h4>Update {{article.name}} by {{article.author }}</h4>
+    <div>
+      <form>
+        <div class="form-group">
+          <label for="name">name</label>
+          {{input value=name id="name" placeholder=article.name}}
+        </div>
+
+        <div class="form-group">
+          <label for="author">Author</label>
+          {{input value=author id="author" placeholder=article.author}}
+        </div>
+
+        <div class="form-group">
+          <label for="content">Content</label>
+          {{input value=content id="content" placeholder=article.content}}
+        </div>
+
+        <div class="form-group">
+          <label for="date">Date</label>
+          {{input value=date id="date" placeholder=article.date}}
+        </div>
+
+        <div class="form-group">
+          <label for="image">image</label>
+          {{input value=image id="image" placeholder=article.image}}
+        </div>
+
+        <button {{action 'update' article}}>Save</button>
+      </form>
+    </div>
+{{else}}
+    <button {{action 'updateAdminForm'}}>Update</button>
+{{/if}}
